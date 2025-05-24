@@ -1,5 +1,6 @@
 import React from 'react';
 import { Linkedin, Twitter, Mail } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 interface TeamMember {
   id: number;
@@ -65,11 +66,13 @@ const teamMembers: TeamMember[] = [
   }
 ];
 
+
 interface TeamSectionProps {
   isDetailedView?: boolean;
 }
 
 const TeamSection: React.FC<TeamSectionProps> = ({ isDetailedView = false }) => {
+  const navigate = useNavigate();
   return (
     <section className={`py-20 ${isDetailedView ? 'bg-white' : 'bg-blue-50'}`}>
       <div className="container mx-auto px-4">
@@ -148,12 +151,18 @@ const TeamSection: React.FC<TeamSectionProps> = ({ isDetailedView = false }) => 
         
         {!isDetailedView && (
           <div className="text-center mt-12">
-            <a 
+            {/* <a 
               href="/about" 
               className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
             >
               Meet the Entire Team
-            </a>
+            </a> */}
+               <button
+      onClick={() => navigate('/about')}
+      className="inline-block px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition-colors"
+    >
+      Meet the Entire Team
+    </button>
           </div>
         )}
       </div>
