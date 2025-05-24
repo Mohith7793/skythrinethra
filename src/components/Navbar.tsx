@@ -35,15 +35,20 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-2">
-            <span className="text-blue-600">
-              <Drone size={32} />
-            </span>
-            <span className={`font-bold text-xl ${isScrolled ? 'text-blue-600' : 'text-white'}`}>TechDrone</span>
+          <span className="inline-block">
+  <img
+    src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/SKYTHRINETHRA.png?sp=r&st=2025-05-24T10:01:27Z&se=2026-07-01T18:01:27Z&spr=https&sv=2024-11-04&sr=b&sig=x%2BDRIAlLlExpUje%2BND7qVd78aoJNCVAf4DEPzOOFVOU%3D"
+    alt="SkyThrinethra Logo"
+    className="h-10 w-auto object-contain"
+  />
+</span>
+
+            <span className={`font-bold text-xl ${isScrolled ? 'text-blue-600' : 'text-white'}`}>ＳＫＹＴＨＲＩＮΞＴＨＲΛ</span>
           </Link>
           
           <nav className="hidden md:flex space-x-8 items-center">
             <NavLink to="/" icon={<HomeIcon size={18} />} label="Home" isScrolled={isScrolled} />
-            <NavLink to="/drones" icon={<Drone size={18} />} label="Drones" isScrolled={isScrolled} />
+            <NavLink to="/drones" icon={<X size={18} />} label="Drones" isScrolled={isScrolled} />
             <NavLink to="/software" icon={<Code size={18} />} label="Software" isScrolled={isScrolled} />
             <NavLink to="/training" icon={<GraduationCap size={18} />} label="Training" isScrolled={isScrolled} />
             <NavLink to="/about" icon={<Users size={18} />} label="About" isScrolled={isScrolled} />

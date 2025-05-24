@@ -7,7 +7,13 @@ const services = [
     id: 1,
     title: "Drone Products",
     description: "Our custom-designed drones combine cutting-edge hardware with sophisticated software for unparalleled performance in various applications.",
-    icon: <Drone size={32} className="text-orange-500" />,
+    icon: (
+      <img
+        src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/drone%20(1).png?sp=r&st=2025-05-24T12:43:09Z&se=2027-01-31T20:43:09Z&spr=https&sv=2024-11-04&sr=b&sig=lfjV2n3ghOf7yMvGt1NB6Ig%2Buui6NmOy8cgthnermbE%3D"
+        alt="Drone Icon"
+        className="w-9 h-9"
+      />
+    ),
     gradient: "from-orange-500 to-red-500",
     route: "/drones",
     image: "https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Bone as Drone, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Bone as Drone, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin,Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,23 +9,32 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Drone size={32} className="text-blue-400" />
-              <span className="font-bold text-xl">TechDrone</span>
+            <span className="inline-block">
+  <img
+    src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/SKYTHRINETHRA.png?sp=r&st=2025-05-24T10:01:27Z&se=2026-07-01T18:01:27Z&spr=https&sv=2024-11-04&sr=b&sig=x%2BDRIAlLlExpUje%2BND7qVd78aoJNCVAf4DEPzOOFVOU%3D"
+    alt="SkyThrinethra Logo"
+    className="h-8 w-auto object-contain"
+  />
+</span>
+              <span className="font-bold text-xl">ＳＫＹＴＨＲＩＮΞＴＨＲΛ</span>
             </Link>
             <p className="text-gray-400 mb-6">
               Pioneering technology solutions across drone products, software services, and educational training.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/people/SkyThrinethra/61573399597282/" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.youtube.com/@skythrinethra" className="text-gray-400 hover:text-white transition-colors">
+                <Youtube size={20} />
+              </a>
+              <a href="https://x.com/i/flow/login?redirect_after_login=%2FSkyThrinethra" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/skythrinethra/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
@@ -58,22 +67,27 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="text-gray-400 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-gray-400">123 Tech Avenue, Innovation District, City, Country</span>
+                <span className="text-gray-400">SkyThrinethra Drones
+Muthyam building 3rd floor,behind Muthukur 2
+Grama Sachivalayam, mamidipudi - Muthukur road,
+Nellore-524001,
+Andhra Pradesh, India
+</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-gray-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">+1 (123) 456-7890</span>
+                <span className="text-gray-400">+91 75694 34522</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-gray-400 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">info@techdrone.com</span>
+                <span className="text-gray-400">contact@skythrinethra.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 mb-4 md:mb-0">© {new Date().getFullYear()} TechDrone. All rights reserved.</p>
+          <p className="text-gray-400 mb-4 md:mb-0">© {new Date().getFullYear()} ＳＫＹＴＨＲＩＮΞＴＨＲΛ. All rights reserved.</p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy</a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms</a>

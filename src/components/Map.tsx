@@ -5,11 +5,15 @@ const Map: React.FC = () => {
     <section className="py-12">
       <div className="container mx-auto px-4">
         <div className="rounded-xl overflow-hidden shadow-lg h-96">
-          {/* Replace with actual Google Maps or other map service */}
-          <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-            <p className="text-gray-600">Map will be displayed here</p>
-            {/* In a real implementation, you would include an iframe with Google Maps or similar service */}
-          </div>
+          <iframe
+            title="SkyThrinethra Drones Location"
+            src="https://www.google.com/maps?q=SkyThrinethra+Drones,+Muthyam+building,+Muthukur,+Nellore,+Andhra+Pradesh&output=embed"
+            width="100%"
+            height="100%"
+            loading="lazy"
+            style={{ border: 0 }}
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>

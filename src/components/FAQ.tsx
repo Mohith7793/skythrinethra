@@ -80,7 +80,7 @@ const FAQ: React.FC<FAQProps> = ({ isContactPage = false }) => {
   return (
     <div>
       {!isContactPage && (
-        <div className="flex flex-wrap justify-center gap-2 mb-8">
+        <div className="flex mt-5 flex-wrap justify-center gap-2 mb-8">
           {categories.map((category) => (
             <button
               key={category}
@@ -97,7 +97,7 @@ const FAQ: React.FC<FAQProps> = ({ isContactPage = false }) => {
         </div>
       )}
       
-      <div className="max-w-3xl mx-auto divide-y divide-gray-200 rounded-xl overflow-hidden shadow">
+      <div className="max-w-3xl  mb-5 mx-auto divide-y divide-gray-200 rounded-xl overflow-hidden shadow">
         {filteredFAQs.map((item) => (
           <div key={item.id} className="bg-white">
             <button

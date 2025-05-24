@@ -147,7 +147,7 @@ const Testimonials: React.FC = () => {
             </div>
             
             {/* Navigation Buttons */}
-            <div className="absolute -bottom-6 left-0 right-0 flex justify-center space-x-4">
+            <div className=" mt-2 -bottom-6 left-0 right-0 flex justify-center space-x-4">
               <button 
                 onClick={prevTestimonial}
                 className="p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors duration-300"

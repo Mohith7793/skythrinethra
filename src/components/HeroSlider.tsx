@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Bone as Drone, Code, GraduationCap } from 'lucide-react';
+import { ChevronLeft, ChevronRight, X as Drone, Code, GraduationCap } from 'lucide-react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 interface Slide {
   id: number;
@@ -18,7 +20,14 @@ const slides: Slide[] = [
     title: "Cutting-Edge Drone Technology",
     subtitle: "Experience flight like never before with our proprietary drone solutions",
     bgImage: "https://images.pexels.com/photos/442589/pexels-photo-442589.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    icon: <Drone size={48} />,
+    icon: (
+      <img
+        src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/drone%20(1).png?sp=r&st=2025-05-24T12:43:09Z&se=2027-01-31T20:43:09Z&spr=https&sv=2024-11-04&sr=b&sig=lfjV2n3ghOf7yMvGt1NB6Ig%2Buui6NmOy8cgthnermbE%3D"
+        alt="Drone Icon"
+        className="w-13 h-16"
+      />
+    ),
+    
     color: "from-orange-500",
     route: "/drones"
   },

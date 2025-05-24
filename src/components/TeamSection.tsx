@@ -17,50 +17,50 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Dr. Alex Morgan",
+    name: "Harshith",
     position: "Founder & CEO",
-    bio: "With over 15 years of experience in aerospace engineering, Dr. Morgan combines technical expertise with entrepreneurial vision to lead our company's innovation strategy.",
-    avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    bio: "Harshith, the visionary founder of our company, is a pioneer in AI-powered autonomous drones. With deep expertise in the AI and tech industry, he has developed cutting-edge intelligent drones, advanced machine learning solutions, and high-performance websites. His passion for blending AI with drone technology has led to game-changing innovations that enhance automation, precision, and efficiency",
+    avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/harshith%20(1).jpeg?sp=r&st=2025-05-24T11:43:40Z&se=2027-02-28T19:43:40Z&spr=https&sv=2024-11-04&sr=b&sig=X7L4XnLXxoE221L3GVJsSGPpYpO1G%2F3j34zOO2yzMmw%3D",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      email: "alex@techdrone.com"
+      linkedin: "https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/",
+      twitter: "https://x.com/i/flow/login?redirect_after_login=%2FSkyThrinethra",
+      email: "contact@skythrinethra.com"
     }
   },
   {
     id: 2,
-    name: "Sophia Chen",
-    position: "CTO",
-    bio: "A pioneer in AI and machine learning, Sophia oversees our technology development across all service areas, ensuring cutting-edge solutions for our clients.",
-    avatar: "https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Vedanth",
+    position: "CTO | Front-End & AI Team Lead ",
+    bio: "A pioneer in AI and machine learning, Vedanth oversees our technology development across all service areas, ensuring cutting-edge solutions for our clients. Leading front-end and AI teams to build intelligent, scalable, and high-performance digital solutions",
+    avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/vednth.jpg?sp=r&st=2025-05-24T11:52:33Z&se=2027-02-28T19:52:33Z&spr=https&sv=2024-11-04&sr=b&sig=RgSGYa%2F5ij20C6Ou27pZ2kiRGCAEN%2F%2FMiY3Qhz8nZFI%3D",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      email: "sophia@techdrone.com"
+      linkedin: "https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/",
+      twitter: "https://x.com/i/flow/login?redirect_after_login=%2FSkyThrinethra",
+      email: "contact@skythrinethra.com"
     }
   },
   {
     id: 3,
-    name: "David Singh",
-    position: "Head of Drone Engineering",
-    bio: "David leads our drone hardware team, bringing his extensive background in robotics and electronics to create innovative and reliable aerial platforms.",
-    avatar: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Ramana",
+    position: "CFO |Backend Team Lead  ",
+    bio: "Building robust and scalable backend systems with hands-on expertise in high-performance architecture and efficient data management",
+    avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/rmn.png?sp=r&st=2025-05-24T12:07:38Z&se=2027-03-28T20:07:38Z&spr=https&sv=2024-11-04&sr=b&sig=XysSOTmsdyPu8SQkQxTrbpRLcrLa8MGvU6ERt8qdo4Q%3D",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      email: "david@techdrone.com"
+      linkedin: "https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/",
+      twitter: "https://x.com/i/flow/login?redirect_after_login=%2FSkyThrinethra",
+      email: "contact@skythrinethra.com"
     }
   },
   {
     id: 4,
-    name: "Olivia Johnson",
-    position: "Director of Educational Programs",
-    bio: "With a Ph.D. in Educational Technology, Olivia designs our training curricula to make complex technical concepts accessible and engaging for young learners.",
-    avatar: "https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Mohith",
+    position: "Director of Educational Programs | UI/UX Design Lead ",
+    bio: "With an M.Tech Integrated in Computer Science and Engineering (Data Science), Mohith blends cutting-edge UI/UX design with operational excellence to enhance digital experiences, boost user engagement, and design training curricula that make complex technical concepts accessible and engaging for young learners.",
+    avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/mohith.jpg?sp=r&st=2025-05-24T11:44:45Z&se=2027-01-31T19:44:45Z&spr=https&sv=2024-11-04&sr=b&sig=NC2Ye3AhcSOfbm5rCMJDmnS%2F%2FOT1WyjhUKzVusIfcOI%3D",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      email: "olivia@techdrone.com"
+      linkedin: "https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/",
+      twitter: "https://x.com/i/flow/login?redirect_after_login=%2FSkyThrinethra",
+      email: "contact@skythrinethra.com"
     }
   }
 ];
@@ -83,13 +83,27 @@ const TeamSection: React.FC<TeamSectionProps> = ({ isDetailedView = false }) => 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member) => (
             <div key={member.id} className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
-              <div className="aspect-w-3 aspect-h-4 overflow-hidden">
+              {/* <div className="aspect-w-3 aspect-h-4 overflow-hidden">
                 <img 
                   src={member.avatar} 
                   alt={member.name} 
                   className="w-full h-64 object-cover object-center transition-transform duration-500 hover:scale-110"
                 />
-              </div>
+              </div> */}
+              <div 
+  key={member.id} 
+  className="w-72 h-96 bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+>
+  <div className="w-full h-full overflow-hidden">
+    <img 
+      src={member.avatar} 
+      alt={member.name} 
+      className="w-full h-300 object-cover object-center transition-transform duration-500 hover:scale-110"
+    />
+  </div>
+</div>
+
+              
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-blue-600 font-medium text-sm mb-4">{member.position}</p>

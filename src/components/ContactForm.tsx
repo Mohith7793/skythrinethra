@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 interface FormState {
   name: string;
@@ -20,7 +21,8 @@ const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState<FormState>(initialState);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  
+  const [error, setError] = useState('');
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -28,23 +30,37 @@ const ContactForm: React.FC = () => {
       [name]: value
     }));
   };
-  
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      setFormData(initialState);
-    }, 1500);
+    setError('');
+
+    const templateParams = {
+      from_name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      subject: formData.subject,
+      message: formData.message
+    };
+
+    emailjs.send('service_7s9nior', 'template_1pdw40d', templateParams, 't-5uwi7hli7Fw6hZr')
+      .then(() => {
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+        setFormData(initialState);
+      })
+      .catch((err) => {
+        console.error('EmailJS Error:', err);
+        setError('Failed to send message. Please try again later.');
+        setIsSubmitting(false);
+      });
   };
-  
+
   return (
     <div className="bg-white rounded-xl shadow-lg p-8">
       <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
-      
+
       {isSubmitted ? (
         <div className="bg-green-50 border border-green-200 rounded-lg p-6 text-center">
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -54,7 +70,7 @@ const ContactForm: React.FC = () => {
           </div>
           <h4 className="text-xl font-semibold text-green-800 mb-2">Thank You!</h4>
           <p className="text-green-700">Your message has been sent successfully. We'll get back to you soon.</p>
-          <button 
+          <button
             onClick={() => setIsSubmitted(false)}
             className="mt-4 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
           >
@@ -89,7 +105,7 @@ const ContactForm: React.FC = () => {
               />
             </div>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-6 mb-6">
             <div>
               <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
@@ -120,7 +136,7 @@ const ContactForm: React.FC = () => {
               </select>
             </div>
           </div>
-          
+
           <div className="mb-6">
             <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
             <textarea
@@ -133,7 +149,9 @@ const ContactForm: React.FC = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
             ></textarea>
           </div>
-          
+
+          {error && <p className="text-red-600 mb-4">{error}</p>}
+
           <button
             type="submit"
             disabled={isSubmitting}
