@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
         <div className={`md:hidden transition-all duration-300 overflow-hidden ${isOpen ? 'max-h-screen py-4' : 'max-h-0'}`}>
           <div className="flex flex-col space-y-4 bg-white rounded-lg p-4">
             <MobileNavLink to="/" icon={<HomeIcon size={18} />} label="Home" />
-            <MobileNavLink to="/drones" icon={<Drone size={18} />} label="Drones" />
+            <MobileNavLink to="/drones" icon={<X size={18} />} label="Drones" />
             <MobileNavLink to="/software" icon={<Code size={18} />} label="Software" />
             <MobileNavLink to="/training" icon={<GraduationCap size={18} />} label="Training" />
             <MobileNavLink to="/about" icon={<Users size={18} />} label="About" />
