@@ -28,14 +28,18 @@ const AboutPage: React.FC = () => {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-                Founded in 2025, our company emerged from a shared passion for technology and innovation. What began as a small team of enthusiasts has grown into a dynamic company serving diverse technological needs across multiple sectors.
-              </p>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Our journey started with a simple mission: to make cutting-edge technology accessible and beneficial for everyone. Today, we're proud to offer comprehensive solutions in drone technology, software development, and educational training.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Despite our growth, we remain committed to our founding principles of innovation, quality, and customer satisfaction. Every product we design and every service we provide reflects our dedication to excellence and our belief in technology's power to transform lives.
-              </p>
+              ＳＫＹＴＨＲＩＮΞＴＨＲΛ — inspired by the sky and the Sanskrit word <em>Thrinethra</em> meaning "three eyes"; represents our three core services: commercial, agricultural, and defense drones equipped with advanced cameras delivering vital insights;
+</p>
+<p className="text-gray-700 mb-4 leading-relaxed">
+  We combine cutting-edge drone technology with AI-powered software services and comprehensive training programs to empower the next generation in drone and software innovation;
+</p>
+<p className="text-gray-700 mb-4 leading-relaxed">
+  Founded in 2025, our journey began with passion and has grown into a dynamic company committed to making advanced technology accessible and impactful;
+</p>
+<p className="text-gray-700 leading-relaxed">
+  Our commitment remains strong — innovation, quality, and customer satisfaction in every product and service we provide.
+</p>
+
             </div>
           </div>
         </div>

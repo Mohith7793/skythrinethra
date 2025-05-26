@@ -43,7 +43,8 @@ const Navbar: React.FC = () => {
   />
 </span>
 
-            <span className={`font-bold text-xl ${isScrolled ? 'text-blue-600' : 'text-white'}`}>ＳＫＹＴＨＲＩＮΞＴＨＲΛ</span>
+            <span className={`font-bold text-xl ${isScrolled ? 'text-orange-500'
+ : 'text-white'}`}>ＳＫＹＴＨＲＩＮΞＴＨＲΛ</span>
           </Link>
           
           <nav className="hidden md:flex space-x-8 items-center">

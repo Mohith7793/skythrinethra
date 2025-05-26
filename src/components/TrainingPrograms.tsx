@@ -4,7 +4,7 @@ const TrainingPrograms: React.FC = () => {
   const programs = [
     {
       title: "Introduction to Coding",
-      ageGroup: "Ages 8-10",
+      ageGroup: "Ages < 18",
       duration: "8 weeks",
       description: "A fun introduction to basic programming concepts using block-based coding.",
       topics: ["Basic algorithms", "Problem-solving", "Game creation"]
