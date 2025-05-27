@@ -173,4 +173,3 @@ const TeamSection: React.FC<TeamSectionProps> = ({ isDetailedView = false }) => 
 
 export default TeamSection;
 
-
