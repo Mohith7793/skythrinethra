@@ -43,8 +43,9 @@ const teamMembers: TeamMember[] = [
   {
     id: 3,
     name: "Ramana",
-    position: "CFO |Backend Team Lead  ",
+    position: "CFO | Backend Team Lead  ",
     bio: "Building robust and scalable backend systems with hands-on expertise in high-performance architecture and efficient data management",
+    avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/ramana.jpg?sp=r&st=2025-05-27T05:50:40Z&se=2027-03-29T13:50:40Z&spr=https&sv=2024-11-04&sr=b&sig=jp4pc3DaqCABNXGnb%2BJI3K%2BV7hK8N7qdR2T4ol3E6To%3D",
     avatar: "https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/ramana.jpg?sp=r&st=2025-05-27T05:50:40Z&se=2027-03-29T13:50:40Z&spr=https&sv=2024-11-04&sr=b&sig=jp4pc3DaqCABNXGnb%2BJI3K%2BV7hK8N7qdR2T4ol3E6To%3D",
     socialLinks: {
       linkedin: "https://www.linkedin.com/in/%EF%BD%93%EF%BD%8B%EF%BD%99%EF%BD%94%EF%BD%88%EF%BD%92%EF%BD%89%EF%BD%8E%CE%BE%EF%BD%94%EF%BD%88%EF%BD%92%CE%BB-274198355/",
@@ -171,3 +172,5 @@ const TeamSection: React.FC<TeamSectionProps> = ({ isDetailedView = false }) => 
 };
 
 export default TeamSection;
+
+

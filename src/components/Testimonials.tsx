@@ -7,7 +7,7 @@ const testimonials = [
     name: "Sarah Johnson",
     position: "CTO, AeroTech Industries",
     avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    content: "The drones provided by TechDrone have revolutionized our aerial surveying operations. The quality of hardware combined with their intuitive software has significantly improved our efficiency.",
+    content: "The drones provided by SkyThrinethra have revolutionized our aerial surveying operations. The quality of hardware combined with their intuitive software has significantly improved our efficiency.",
     rating: 5,
     category: "Drone Products"
   },
@@ -34,7 +34,7 @@ const testimonials = [
     name: "David Patel",
     position: "Operations Manager, GlobalSurvey",
     avatar: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    content: "The drone technology provided by TechDrone exceeds our expectations. Their after-sales support and training have been exceptional, ensuring our team can utilize the equipment to its full potential.",
+    content: "The drone technology provided by SkyThrinethra exceeds our expectations. Their after-sales support and training have been exceptional, ensuring our team can utilize the equipment to its full potential.",
     rating: 4,
     category: "Drone Products"
   },
@@ -43,7 +43,7 @@ const testimonials = [
     name: "Jennifer Smith",
     position: "Director, EdTech Foundation",
     avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    content: "Implementing TechDrone's training program in our schools has sparked tremendous interest in STEM subjects among students. The curriculum is well-structured and the results speak for themselves.",
+    content: "Implementing SkyThrinethra's training program in our schools has sparked tremendous interest in STEM subjects among students. The curriculum is well-structured and the results speak for themselves.",
     rating: 5,
     category: "Training Programs"
   }
