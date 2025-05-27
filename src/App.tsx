@@ -13,6 +13,8 @@ import SitemapPage from './pages/SitemapPage';
 import CareersPage from './pages/CareersPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   return (
@@ -39,5 +41,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
