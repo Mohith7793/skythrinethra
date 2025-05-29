@@ -12,183 +12,89 @@ const TermsPage: React.FC = () => {
       
       <div className="py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="bg-white rounded-xl shadow-lg p-8 space-y-8">
+          <div className="bg-white rounded-xl shadow-lg p-8 space-y-8 text-gray-700">
+            
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Agreement to Terms</h2>
-              <div className="p-6 bg-blue-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                <div className="flex items-start gap-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Agreement"
-                    className="w-1/3 h-40 object-cover rounded-lg"
-                  />
-                  <div>
-                    <p className="text-gray-700 mb-4">
-                      By accessing or using our services, you agree to be bound by these Terms and our Privacy Policy. If you disagree with any part of the terms, you may not access our services.
-                    </p>
-                    <ul className="space-y-2">
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                        <span>Read and understand all terms</span>
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                        <span>Accept our privacy policy</span>
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                        <span>Comply with all applicable laws</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <p>
+                By accessing or using our services, you agree to be fully bound by these Terms of Service as well as our Privacy Policy. If you do not agree to any part of these terms, please do not use our services. You must carefully read and understand all the terms outlined herein before proceeding. Use of the service constitutes your acceptance of our privacy practices and your commitment to comply with all applicable laws, rules, and regulations. This agreement represents a legally binding contract between you and SkyThrinethra. 
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">2. Intellectual Property</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="p-6 bg-purple-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  <img 
-                    src="https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Our Rights"
-                    className="w-full h-40 object-cover rounded-lg mb-4"
-                  />
-                  <h3 className="font-semibold mb-2">Our Rights</h3>
-                  <p className="text-gray-700">
-                    The service and all materials therein are the property of SkyThrinethra and are protected by copyright, trademark, and other intellectual property laws.
-                  </p>
-                </div>
-                <div className="p-6 bg-green-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  <img 
-                    src="https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Your Rights"
-                    className="w-full h-40 object-cover rounded-lg mb-4"
-                  />
-                  <h3 className="font-semibold mb-2">Your Rights</h3>
-                  <p className="text-gray-700">
-                    We grant you a limited license to access and use our services for your personal or business use in accordance with these terms.
-                  </p>
-                </div>
-              </div>
+              <p>
+                All content, materials, software, products, and services provided through SkyThrinethra, including but not limited to trademarks, copyrights, designs, and logos, are the exclusive property of SkyThrinethra or its licensors and are protected by national and international intellectual property laws. You are granted a limited, non-exclusive, revocable license to access and use our services for personal or business purposes only and strictly in accordance with these terms. Unauthorized use, reproduction, or distribution of our intellectual property is strictly prohibited and may result in legal action.
+              </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">3. User Responsibilities</h2>
-              <div className="space-y-4">
-                {[
-                  {
-                    title: "Account Security",
-                    content: "You are responsible for safeguarding your account credentials",
-                    image: "https://images.pexels.com/photos/3183132/pexels-photo-3183132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  },
-                  {
-                    title: "Acceptable Use",
-                    content: "You agree not to misuse our services or help anyone else do so",
-                    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  },
-                  {
-                    title: "Content Guidelines",
-                    content: "You agree to follow our content guidelines when using our services",
-                    image: "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  }
-                ].map((item, index) => (
-                  <div key={index} className="p-6 bg-indigo-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <div className="flex items-center gap-6">
-                      <img 
-                        src={item.image}
-                        alt={item.title}
-                        className="w-1/4 h-32 object-cover rounded-lg"
-                      />
-                      <div>
-                        <h3 className="font-semibold mb-2">{item.title}</h3>
-                        <p className="text-gray-700">{item.content}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+              <p>
+                Users are responsible for maintaining the confidentiality and security of their account credentials and must notify us immediately of any unauthorized use or breach. You agree to use our services responsibly and ethically, refraining from any activities that may harm or misuse the platform, interfere with others’ use, or violate any laws or regulations. Compliance with our content guidelines is mandatory, and users are expected to avoid posting or transmitting any harmful, offensive, or illegal content. We reserve the right to suspend or terminate accounts that breach these responsibilities.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">4. Limitation of Liability</h2>
-              <div className="p-6 bg-red-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                <div className="flex items-start gap-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Liability"
-                    className="w-1/3 h-40 object-cover rounded-lg"
-                  />
-                  <p className="text-gray-700">
-                    To the maximum extent permitted by law, in no event shall SkyThrinethra be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues.
-                  </p>
-                </div>
-              </div>
+              <h2 className="text-2xl font-bold mb-4">4. Privacy</h2>
+              <p>
+                Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your personal information. By using our services, you consent to the collection and use of your information as described in the Privacy Policy. Please review the Privacy Policy carefully to understand your rights and how we protect your data.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">5. Changes to Terms</h2>
-              <div className="p-6 bg-yellow-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                <div className="flex items-start gap-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Changes"
-                    className="w-1/3 h-40 object-cover rounded-lg"
-                  />
-                  <div>
-                    <p className="text-gray-700 mb-4">
-                      We reserve the right to modify these terms at any time. We will notify you of any changes by posting the new terms on this page.
-                    </p>
-                    <ul className="space-y-2">
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-yellow-500 rounded-full mr-2"></span>
-                        <span>Regular updates to terms</span>
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-yellow-500 rounded-full mr-2"></span>
-                        <span>Notification of changes</span>
-                      </li>
-                      <li className="flex items-center text-gray-700">
-                        <span className="h-2 w-2 bg-yellow-500 rounded-full mr-2"></span>
-                        <span>User responsibility to review</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+              <h2 className="text-2xl font-bold mb-4">5. User Content</h2>
+              <p>
+                You retain ownership of any content you submit or post on our platform. However, by submitting content, you grant SkyThrinethra a worldwide, royalty-free, non-exclusive license to use, reproduce, modify, and display such content solely for the purposes of operating and improving our services. You affirm that you have the necessary rights and permissions to share your content and that it does not violate any third-party rights.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-              <div className="p-6 bg-gray-50 rounded-lg transform transition-all duration-300 hover:shadow-lg">
-                <div className="flex flex-col md:flex-row items-center gap-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Contact"
-                    className="w-full md:w-1/3 h-48 object-cover rounded-lg"
-                  />
-                  <div>
-                    <p className="text-gray-700 mb-4">
-                      If you have any questions about these Terms, please contact us:
-                    </p>
-                    <div className="space-y-2">
-                      <p className="text-gray-700 hover:text-blue-600 transition-colors">
-                        <span className="font-semibold">Email:</span> contact@skythrinethra.com
-                      </p>
-                      <p className="text-gray-700 hover:text-blue-600 transition-colors">
-                        <span className="font-semibold">Phone:</span> +91 75694 34522
-                      </p>
-                      <p className="text-gray-700 hover:text-blue-600 transition-colors">
-                        <span className="font-semibold">Address:</span> SkyThrinethra Drones
-Muthyam Building 3rd Floor, Behind Muthukur 2
-Grama Sachivalayam, Mamidipudi - Muthukur Road,
-Nellore-524001, Andhra Pradesh, India
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2 className="text-2xl font-bold mb-4">6. Limitation of Liability</h2>
+              <p>
+                To the fullest extent permitted by law, SkyThrinethra and its affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the service, including but not limited to loss of profits, data, or other intangible losses. Our services are provided "as is" and "as available" without warranties of any kind, either express or implied. We do not guarantee uninterrupted or error-free service, and you agree to use the platform at your own risk.
+              </p>
             </section>
+
+            <section>
+              <h2 className="text-2xl font-bold mb-4">7. Termination</h2>
+              <p>
+                We reserve the right to suspend or terminate your access to the services immediately, without prior notice or liability, for any reason including breach of these Terms of Service. Upon termination, your right to use the services will cease immediately. Any provisions of the Terms which by their nature should survive termination shall remain in effect.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold mb-4">8. Changes to Terms</h2>
+              <p>
+                SkyThrinethra reserves the right to update, modify, or replace these Terms of Service at any time without prior notice. Any changes will be effective immediately upon posting on this page. It is your responsibility to regularly review these terms to stay informed of any updates. Continued use of our services after such modifications constitutes acceptance of the new terms. We encourage users to periodically check this page for the latest information.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-bold mb-4">9. Governing Law and Dispute Resolution</h2>
+              <p>
+                These Terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law principles. Any disputes arising out of or relating to these Terms or the use of our services shall be resolved exclusively in the courts located in Andhra Pradesh, India. You agree to submit to the personal jurisdiction of these courts.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">How can you contact us?</h2>
+              <p>
+                If you have questions, concerns, or requests regarding these Terms of Service, the Privacy Policy, or your personal data, please contact our Data Protection Officer at the following:
+              </p>
+              <p className="mt-4">
+                Email: <a href="mailto:contact@skythrinethra.com" className="text-indigo-600 hover:underline">contact@skythrinethra.com</a><br />
+                Phone: <a href="tel:+917569434522" className="text-indigo-600 hover:underline">+91 75694 34522</a><br />
+                Postal Address:<br />
+                SkyThrinethra Drones<br />
+                Muthyam Building 3rd Floor<br />
+                Behind Muthukur 2, Grama Sachivalayam<br />
+                Mamidipudi - Muthukur Road<br />
+                Nellore-524001, Andhra Pradesh<br />
+                India
+              </p>
+            </section>
+
           </div>
         </div>
       </div>

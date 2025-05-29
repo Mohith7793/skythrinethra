@@ -3,7 +3,15 @@ import PageHeader from '../components/PageHeader';
 
 const PrivacyPage: React.FC = () => {
   return (
-    <div>
+    <div
+      className="min-h-screen bg-gray-50"
+      style={{
+        fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        color: '#222222',
+        fontSize: '16px',
+        lineHeight: 1.5,
+      }}
+    >
       <PageHeader 
         title="Privacy Policy" 
         subtitle="How we protect and manage your data"
@@ -12,160 +20,96 @@ const PrivacyPage: React.FC = () => {
       
       <div className="py-16 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="bg-white rounded-xl shadow-lg p-8 space-y-8">
+          <div className="bg-white rounded-xl shadow-lg p-10 space-y-12">
+            
             <section>
-              <h2 className="text-2xl font-bold mb-4">Information Collection and Use</h2>
-              <div className="space-y-4">
-                <div className="p-6 bg-indigo-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  <div className="flex items-start mb-4">
-                    <img 
-                      src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                      alt="Data Protection" 
-                      className="w-24 h-24 object-cover rounded-lg mr-4"
-                    />
-                    <div>
-                      <h3 className="font-semibold mb-2">Personal Information</h3>
-                      <p className="text-gray-700">We collect various types of information including:</p>
-                      <ul className="mt-2 space-y-2">
-                        <li className="flex items-center">
-                          <span className="h-2 w-2 bg-indigo-500 rounded-full mr-2"></span>
-                          <span>Name and contact details</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="h-2 w-2 bg-indigo-500 rounded-full mr-2"></span>
-                          <span>Payment information</span>
-                        </li>
-                        <li className="flex items-center">
-                          <span className="h-2 w-2 bg-indigo-500 rounded-full mr-2"></span>
-                          <span>Device and usage data</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2 className="text-3xl font-bold mb-5">What information do we collect and why?</h2>
+              <p>
+                We collect a variety of personal data to provide, maintain, and improve our services. This includes identification data such as your name, date of birth, and government-issued identification numbers which help us verify your identity and comply with legal obligations. We also collect contact details including your email address, postal address, and telephone numbers to communicate effectively. Account credentials like usernames, passwords, and security questions are collected to secure your account. Payment and billing information, including bank details, credit card information, and billing addresses, are collected to process transactions securely. Additionally, we collect usage data automatically such as IP addresses, device types, browser information, and log files to understand how our services are accessed and used. Where you have provided consent, location information is collected to offer location-specific services and meet regulatory requirements. Communication data, including records of your emails, calls, and chats with us, are used to assist in customer support and improve service quality. We gather this data through your interactions with our websites, applications, customer service channels, and through third-party sources when legally permissible.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">Data Protection</h2>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="p-6 bg-green-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  <img 
-                    src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                    alt="Security Measures" 
-                    className="w-full h-48 object-cover rounded-lg mb-4"
-                  />
-                  <h3 className="font-semibold mb-2">Security Measures</h3>
-                  <p className="text-gray-700">
-                    We implement industry-standard security measures to protect your data:
-                  </p>
-                  <ul className="mt-2 space-y-2">
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
-                      <span>Encryption at rest and in transit</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
-                      <span>Regular security audits</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-green-500 rounded-full mr-2"></span>
-                      <span>Access controls</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="p-6 bg-blue-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                  <img 
-                    src="https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                    alt="Data Retention" 
-                    className="w-full h-48 object-cover rounded-lg mb-4"
-                  />
-                  <h3 className="font-semibold mb-2">Data Retention</h3>
-                  <p className="text-gray-700">
-                    We retain your data only for as long as necessary to:
-                  </p>
-                  <ul className="mt-2 space-y-2">
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                      <span>Provide our services</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                      <span>Comply with legal obligations</span>
-                    </li>
-                    <li className="flex items-center">
-                      <span className="h-2 w-2 bg-blue-500 rounded-full mr-2"></span>
-                      <span>Resolve disputes</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <h2 className="text-3xl font-bold mb-5">How do we use your personal data?</h2>
+              <p>
+                Your personal information is used for a range of essential purposes. Primarily, it enables us to set up, manage, and operate your accounts and services efficiently. We tailor our offerings and communications based on your preferences and needs to provide a personalized experience. We use your data to send important updates, promotional offers, and to respond to your inquiries or complaints. Security and fraud prevention are a critical part of our use of your information; we monitor accounts and transactions to detect and prevent unauthorized activities. Compliance with legal, regulatory, and contractual obligations also requires the use of your data. Furthermore, we analyze usage trends and feedback to improve service quality and customer experience. Subject to your consent, your information may be used for marketing purposes to provide relevant communications and offers from us or our selected partners. We are committed to ensuring that your data is only used in ways consistent with this Privacy Policy and your rights under applicable laws.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">Your Rights</h2>
-              <div className="grid md:grid-cols-3 gap-6">
-                {[
-                  {
-                    title: "Access",
-                    description: "Request access to your personal data",
-                    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  },
-                  {
-                    title: "Rectification",
-                    description: "Request correction of inaccurate data",
-                    image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  },
-                  {
-                    title: "Erasure",
-                    description: "Request deletion of your personal data",
-                    image: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  }
-                ].map((right, index) => (
-                  <div key={index} className="p-6 bg-purple-50 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-lg">
-                    <img 
-                      src={right.image} 
-                      alt={right.title}
-                      className="w-full h-40 object-cover rounded-lg mb-4"
-                    />
-                    <h3 className="font-semibold mb-2">{right.title}</h3>
-                    <p className="text-gray-700">{right.description}</p>
-                  </div>
-                ))}
-              </div>
+              <h2 className="text-3xl font-bold mb-5">What legal grounds do we have to process your data?</h2>
+              <p>
+                We process your personal data under various legal bases depending on the context. This includes situations where you have explicitly provided your consent to the processing of your personal data for specific purposes. We also process data as necessary to fulfill our contractual obligations to you. Compliance with legal obligations requires processing your data when mandated by laws, regulations, court orders, or governmental requests. In rare cases, processing is necessary to protect your life or safety, or that of another individual. Lastly, we process data when it is necessary for our legitimate business interests, provided such interests do not override your fundamental rights and freedoms. We carefully assess and document these legal grounds to ensure transparency and accountability.
+              </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-              <div className="p-6 bg-gray-50 rounded-lg transform transition-all duration-300 hover:shadow-lg">
-                <div className="flex flex-col md:flex-row items-center gap-6">
-                  <img 
-                    src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Contact"
-                    className="w-full md:w-1/3 h-48 object-cover rounded-lg"
-                  />
-                  <div>
-                    <p className="text-gray-700 mb-4">
-                      If you have any questions about this Privacy Policy, please contact us:
-                    </p>
-                    <div className="space-y-2">
-                      <p className="text-gray-700 hover:text-indigo-600 transition-colors">
-                        <span className="font-semibold">Email:</span> contact@skythrinethra.com
-                      </p>
-                      <p className="text-gray-700 hover:text-indigo-600 transition-colors">
-                        <span className="font-semibold">Phone:</span> +91 75694 34522
-                      </p>
-                      <p className="text-gray-700 hover:text-indigo-600 transition-colors">
-                        <span className="font-semibold">Address:</span> SkyThrinethra Drones
-Muthyam Building 3rd Floor, Behind Muthukur 2
-Grama Sachivalayam, Mamidipudi - Muthukur Road,
-Nellore-524001, Andhra Pradesh, India
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <h2 className="text-3xl font-bold mb-5">With whom do we share your data?</h2>
+              <p>
+                We do not sell your personal data to any third parties. Your information is shared only with trusted entities who support our business operations. This includes third-party service providers who assist us with IT services, payment processing, customer support, marketing, and analytics. We may share data with business partners with whom we collaborate to provide joint services or promotions. Regulatory authorities receive information when required by law, regulation, or legal process, including law enforcement agencies and courts. Additionally, corporate affiliates such as subsidiaries, parent companies, or other affiliated entities may access data for operational purposes. All third parties are contractually bound to protect your data in accordance with this Privacy Policy and applicable data protection laws.
+              </p>
             </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">How long do we keep your personal data?</h2>
+              <p>
+                We retain your personal information only for as long as necessary to fulfill the purposes described in this Privacy Policy, which includes meeting legal, accounting, or reporting requirements. Retention periods vary depending on the type of data and the applicable laws. Once your personal data is no longer needed, we securely delete, anonymize, or aggregate it to prevent unauthorized access.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">What rights do you have over your personal data?</h2>
+              <p>
+                Subject to applicable laws, you have various rights regarding your personal data. These rights include obtaining a copy of the personal data we hold about you, correcting inaccurate or incomplete data, and requesting the deletion of your personal data in certain circumstances. You may also request restrictions on how we process your data, object to processing for direct marketing or on grounds relating to your specific situation, and receive your data in a structured, commonly used, and machine-readable format. Furthermore, if processing is based on consent, you have the right to withdraw your consent at any time without affecting prior processing. To exercise any of these rights, please contact us using the details provided below. We may ask you to verify your identity to protect your privacy.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">Do we use cookies and tracking technologies?</h2>
+              <p>
+                Yes, our website and services use cookies and similar tracking technologies to enhance user experience, measure site performance, and deliver relevant advertisements. Cookies enable us to recognize your device, remember your preferences, and analyze traffic patterns. You can manage cookie settings through your browser preferences or opt out of targeted advertising by adjusting your preferences on relevant platforms. Please note that disabling cookies may affect the functionality of certain features on our site.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">Do we transfer your data internationally?</h2>
+              <p>
+                As a global company, your personal data may be transferred to and processed in countries outside your place of residence. When we transfer data internationally, we ensure that appropriate safeguards are in place to protect your information, such as standard contractual clauses, binding corporate rules, or other legal mechanisms compliant with data protection regulations.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">How do we protect children's privacy?</h2>
+              <p>
+                Our services are not intended for children under the age of 13 or the relevant age of majority in your jurisdiction. We do not knowingly collect or solicit personal information from children. If we become aware that we have collected personal data from a child without parental consent, we will promptly delete such information and take measures to prevent further collection.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">How do we update this privacy policy?</h2>
+              <p>
+                We may update this Privacy Policy periodically to reflect changes in our practices, technology, or legal requirements. Significant updates will be communicated via our website or other appropriate channels. We encourage you to review this policy regularly to stay informed about how we protect your personal data.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-3xl font-bold mb-5">How can you contact us?</h2>
+              <p>
+                If you have questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact our Data Protection Officer at the following:
+              </p>
+              <p className="mt-4">
+                Email: <a href="mailto:contact@skythrinethra.com" className="text-indigo-600 hover:underline">contact@skythrinethra.com</a><br />
+                Phone: <a href="tel:+917569434522" className="text-indigo-600 hover:underline">+91 75694 34522</a><br />
+                Postal Address:<br />
+                SkyThrinethra Drones<br />
+                Muthyam Building 3rd Floor<br />
+                Behind Muthukur 2, Grama Sachivalayam<br />
+                Mamidipudi - Muthukur Road<br />
+                Nellore-524001, Andhra Pradesh<br />
+                India
+              </p>
+            </section>
+
           </div>
         </div>
       </div>

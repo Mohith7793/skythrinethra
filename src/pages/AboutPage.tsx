@@ -11,7 +11,7 @@ const AboutPage: React.FC = () => {
       <PageHeader 
         title="About Us" 
         subtitle="Learn more about our company and mission"
-        bgColor="bg-blue-600"
+        bgColor="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-700"
         textColor="text-white"
       />
       
@@ -28,18 +28,17 @@ const AboutPage: React.FC = () => {
             <div className="order-1 md:order-2">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
-              ＳＫＹＴＨＲＩＮΞＴＨＲΛ — inspired by the sky and the Sanskrit word <em>Thrinethra</em> meaning "three eyes"; represents our three core services: commercial, agricultural, and defense drones equipped with advanced cameras delivering vital insights;
-</p>
-<p className="text-gray-700 mb-4 leading-relaxed">
-  We combine cutting-edge drone technology with AI-powered software services and comprehensive training programs to empower the next generation in drone and software innovation;
-</p>
-<p className="text-gray-700 mb-4 leading-relaxed">
-  Founded in 2025, our journey began with passion and has grown into a dynamic company committed to making advanced technology accessible and impactful;
-</p>
-<p className="text-gray-700 leading-relaxed">
-  Our commitment remains strong — innovation, quality, and customer satisfaction in every product and service we provide.
-</p>
-
+                ＳＫＹＴＨＲＩＮΞＴＨＲΛ — inspired by the sky and the Sanskrit word <em>Thrinethra</em> meaning "three eyes"; represents our three core services: commercial, agricultural, and defense drones equipped with advanced cameras delivering vital insights;
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                We combine cutting-edge drone technology with AI-powered software services and comprehensive training programs to empower the next generation in drone and software innovation;
+              </p>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Founded in 2025, our journey began with passion and has grown into a dynamic company committed to making advanced technology accessible and impactful;
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Our commitment remains strong — innovation, quality, and customer satisfaction in every product and service we provide.
+              </p>
             </div>
           </div>
         </div>
@@ -48,11 +47,13 @@ const AboutPage: React.FC = () => {
       <CompanyHistory />
       <MissionVision />
       <TeamSection isDetailedView={true} />
+      
       <ContactCTA 
         title="Want to know more about us?"
         subtitle="Reach out to our team with any questions you might have."
         buttonText="Contact Us"
-        bgColor="bg-blue-600"
+        bgColor="bg-gradient-to-r from-purple-700 via-pink-600 to-red-600"
+        textColor="text-white"
       />
     </div>
   );

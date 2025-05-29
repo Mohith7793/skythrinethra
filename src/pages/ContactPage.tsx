@@ -11,7 +11,7 @@ const ContactPage: React.FC = () => {
       <PageHeader 
         title="Contact Us" 
         subtitle="Get in touch with our team"
-        bgColor="bg-blue-600"
+        bgColor="bg-blue-600"   // Solid color, no gradient
         textColor="text-white"
       />
       
@@ -26,9 +26,11 @@ const ContactPage: React.FC = () => {
       
       <Map />
       
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-16 px-4 bg-gray-50">  {/* Clean light background */}
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
+            Frequently Asked Questions
+          </h2>
           <FAQ isContactPage={true} />
         </div>
       </section>
