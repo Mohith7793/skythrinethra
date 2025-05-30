@@ -71,12 +71,29 @@ const NewsPage: React.FC = () => {
     : allNews.filter(news => news.category === selectedCategory);
 
   return (
-    <div>
-      <PageHeader 
-        title="Latest News" 
-        subtitle="Stay updated with our latest developments and announcements"
-        bgColor="bg-blue-600"
-      />
+    <div
+      className="min-h-screen bg-gray-50"
+      style={{
+        fontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        color: '#222222',
+        fontSize: '16px',
+        lineHeight: 1.5,
+      }}
+    >
+      {/* Hero Section with image background */}
+      <div className="relative h-[70vh] md:h-screen overflow-hidden">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSolbmlHabU6-Q1rhv9Jnp8sNf4QRFnoIAEVg&s"
+          alt="Privacy background"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-60 z-10 flex flex-col justify-center items-center text-center text-white px-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">Latest News</h1>
+          <p className="text-xl md:text-2xl max-w-2xl">
+          Stay updated with our latest developments and announcements
+          </p>
+        </div>
+      </div>
       
       <section className="py-16 px-4">
         <div className="container mx-auto">

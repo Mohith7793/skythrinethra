@@ -121,7 +121,7 @@ const SoftwarePage: React.FC = () => {
       </div>
 
       {/* Tailored Software Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-purple-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 relative rounded-xl overflow-hidden shadow-xl">

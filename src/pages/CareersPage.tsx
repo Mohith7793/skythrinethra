@@ -122,12 +122,21 @@ const CareersPage: React.FC = () => {
     : positions.filter(pos => pos.department === selectedDepartment);
 
   return (
-    <div>
-      <PageHeader 
-        title="Careers at SkyThrinethra" 
-        subtitle="Join our team and help shape the future of technology"
-        bgColor="bg-gradient-to-r from-blue-600 to-purple-600"
-      />
+    <div className="min-h-screen bg-white">
+      {/* Hero Section with background image */}
+      <div className="relative h-screen overflow-hidden">
+        <img
+          src="https://www.shutterstock.com/shutterstock/videos/1086385508/thumb/4.jpg?ip=x480"
+          alt="Contact background"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
+        <div className="absolute inset-0  bg-opacity-60 z-10 flex flex-col justify-center items-center text-center text-white px-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">Careers at SkyThrinethra</h1>
+          <p className="text-xl md:text-2xl max-w-2xl">
+          Join our team and help shape the future of technology
+          </p>
+        </div>
+      </div>
       
       <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">

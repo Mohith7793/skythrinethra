@@ -35,7 +35,7 @@ const DevelopmentProcess: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-1 bg-purple-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Development Process</h2>

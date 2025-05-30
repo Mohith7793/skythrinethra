@@ -47,8 +47,8 @@ const LatestNews: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="py-20 px-4">
-      <div className="container mx-auto">
+    <section className="py-20 px-4 bg-blue-50">
+      <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-12">
           <div>
             <h2 className="text-4xl font-bold mb-2">Latest News</h2>

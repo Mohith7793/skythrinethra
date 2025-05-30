@@ -118,7 +118,7 @@ const TrainingPage: React.FC = () => {
       </div>
 
       {/* Training Intro Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -159,14 +159,14 @@ const TrainingPage: React.FC = () => {
       <TrainingPrograms />
 
       {/* Teaching Methodology Section */}
-      <section className="py-20 bg-green-50">
+      <section className="py-1 bg-green-50">
         <div className="container mx-auto px-4">
           <TeachingMethodology />
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-green-50">
         <div className="container mx-auto px-4">
           <FAQ />
         </div>

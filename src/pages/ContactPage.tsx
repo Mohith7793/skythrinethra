@@ -51,7 +51,7 @@ const ContactPage: React.FC = () => {
       {/* Hero Section with background image */}
       <div className="relative h-screen overflow-hidden">
         <img
-          src="https://static.vecteezy.com/system/resources/thumbnails/051/166/491/small/communication-concept-with-email-message-box-and-contacts-icons-e-mail-marketing-customer-support-counseling-and-support-hotline-connection-with-modern-network-technology-contact-us-free-photo.jpg"
+          src="https://img.freepik.com/free-photo/realistic-phone-studio-social-media-concept_23-2151459564.jpg?ga=GA1.1.2087056534.1748584172&semt=ais_items_boosted&w=740"
           alt="Contact background"
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         />

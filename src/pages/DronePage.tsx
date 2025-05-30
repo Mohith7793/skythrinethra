@@ -89,6 +89,7 @@ import PageHeader from '../components/PageHeader';
 import DroneShowcase from '../components/DroneShowcase';
 import ClientSuccessStories from '../components/ClientSuccessStories';
 import ContactCTA from '../components/ContactCTA';
+import DroneProjectsShowcase from '../components/DroneProjectsShowcase.tsx';
 
 const DronePage: React.FC = () => {
   return (
@@ -119,7 +120,7 @@ const DronePage: React.FC = () => {
       </div>
 
       {/* Advanced Drone Technology Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-orange-50">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -157,11 +158,25 @@ const DronePage: React.FC = () => {
       </section>
 
       {/* Drone Showcase Component */}
-      <DroneShowcase />
+      
 
+      
+      
+          
+           
       {/* Client Success Stories Section */}
-      <section className="py-20 bg-orange-50">
+      <section className="py-0 bg-orange-50">
         <div className="container mx-auto px-4">
+          
+          <DroneShowcase 
+          industry="Drone Technology"
+            bgColor="bg-orange-50"
+          />
+           
+          <DroneProjectsShowcase 
+          industry="Drone Technology"
+            bgColor="bg-orange-50"
+          />
           <ClientSuccessStories 
             industry="Drone Technology"
             bgColor="bg-orange-50"

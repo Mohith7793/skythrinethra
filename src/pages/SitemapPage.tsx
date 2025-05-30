@@ -89,12 +89,22 @@ const SitemapPage: React.FC = () => {
   ];
 
   return (
-    <div>
-      <PageHeader 
-        title="Sitemap" 
-        subtitle="Navigate through our website content"
-        bgColor="bg-gradient-to-r from-teal-600 to-emerald-600"
-      />
+    
+      <div className="min-h-screen bg-white">
+      {/* Hero Section with background image */}
+      <div className="relative h-screen overflow-hidden">
+        <img
+          src="https://www.shutterstock.com/image-vector/view-above-map-detailed-city-600nw-2391312469.jpg"
+          alt="Contact background"
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        />
+        <div className="absolute inset-0  bg-opacity-60 z-10 flex flex-col justify-center items-center text-center text-white px-4">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">Sitemap</h1>
+          <p className="text-xl md:text-2xl max-w-2xl">
+          Navigate through our website content
+          </p>
+        </div>
+      </div>
       
       <div className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
