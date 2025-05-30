@@ -102,7 +102,7 @@ const TrainingPage: React.FC = () => {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="https://assets.mixkit.co/videos/6945/6945-720.mp4" type="video/mp4" />
+          <source src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/Online%20Robotics%20classes.mp4?sp=r&st=2025-05-30T18:58:04Z&se=2028-03-01T02:58:04Z&spr=https&sv=2024-11-04&sr=b&sig=gB6BES8ieA7z9Qge%2F09rd9AaE47%2F09JkA7J6p6KKedA%3D" type="video/mp4" />
           <img
             src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Training Background"

@@ -90,7 +90,7 @@ const AboutPage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 relative rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/SKYTHRINETHRA.png?sp=r&st=2025-05-24T10:01:27Z&se=2026-07-01T18:01:27Z&spr=https&sv=2024-11-04&sr=b&sig=x%2BDRIAlLlExpUje%2BND7qVd78aoJNCVAf4DEPzOOFVOU%3D" 
                 alt="Our Team" 
                 className="w-full h-auto"
               />
@@ -118,7 +118,7 @@ const AboutPage: React.FC = () => {
       {/* Additional Sections */}
       <CompanyHistory />
       <MissionVision />
-      <TeamSection />
+      <TeamSection isDetailedView={true} />
 
       {/* Contact CTA Section */}
       <section className="py-1 bg-indigo-700 text-white">

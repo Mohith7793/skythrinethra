@@ -105,9 +105,9 @@ const SoftwarePage: React.FC = () => {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="https://assets.mixkit.co/videos/4216/4216-720.mp4" type="video/mp4" />
+          <source src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/vecteezy_a-man-is-working-on-a-laptop-with-code-on-it_52264402.mov?sp=r&st=2025-05-30T18:41:08Z&se=2028-03-01T02:41:08Z&spr=https&sv=2024-11-04&sr=b&sig=jmy6gzKSW0dl9P2NWDPipU6YkmUm%2BvSBy2PZCpgDh2o%3D" type="video/mp4" />
           <img
-            src="https://miro.medium.com/v2/resize:fit:1358/1*T8HTxb22Uddz9MvSQkN7Yg.gif"
+            src="https://skythrinethrssets.blob.core.windows.net/skythrinethfiles/vecteezy_a-man-is-working-on-a-laptop-with-code-on-it_52264402.mov?sp=r&st=2025-05-30T18:41:08Z&se=2028-03-01T02:41:08Z&spr=https&sv=2024-11-04&sr=b&sig=jmy6gzKSW0dl9P2NWDPipU6YkmUm%2BvSBy2PZCpgDh2o%3D"
             alt="Software background"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
